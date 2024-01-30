@@ -69,7 +69,7 @@ public class NinjaDAO {
         ps.setString(2, ninja.getRangoNinja().getRango());
         ps.setString(3, ninja.getAldea());
         
-        ps.executeQuery();
+        ps.execute();
 
     } catch (Exception e) {
         e.printStackTrace();
