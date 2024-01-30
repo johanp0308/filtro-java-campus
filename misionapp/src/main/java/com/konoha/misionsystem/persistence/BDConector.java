@@ -13,7 +13,7 @@ public class BDConector {
     public static Connection MySQLConnection() throws SQLException{
         url = "jdbc:mysql://localhost:3306/db_konohamision";
         user = "root";
-        password = "pajar_google24";
+        password = "campus2024";
         con = DriverManager.getConnection(url, user, password);
         return con;
     }
